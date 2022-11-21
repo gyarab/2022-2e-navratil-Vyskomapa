@@ -21,67 +21,49 @@ public class Vyska {
     public Color getBarva() {
         if (vyska<0){
             return Color.WHITE;
-        }else if (vyska > 0 && vyska < 50) {
-            return Color.LIGHTGRAY;
+        }else if (vyska < 50) {
+            return Color.LIGHTGREEN;
         }else if (vyska < 100) {
-            return Color.DIMGRAY;
+            return Color.PALEGREEN;
         }else if(vyska <150){
-            return Color.GRAY;
+            return Color.LIMEGREEN;
         }else if (vyska<200){
-            return Color.DARKGRAY;
+            return Color.GREEN;
         }else if (vyska<250){
-            return Color.LIGHTBLUE;
+            return Color.GREENYELLOW;
         }else if (vyska < 300){
-            return Color.CORNFLOWERBLUE;
+            return Color.YELLOWGREEN;
         }else if (vyska<350){
-            return Color.DARKBLUE;
+            return Color.LIGHTYELLOW;
         }else if (vyska<400){
-            return Color.CADETBLUE;
+            return Color.YELLOW;
         }else if (vyska<450){
-            return Color.LIGHTSKYBLUE;
+            return Color.ORANGE;
         }else if (vyska<500){
-            return Color.BLUE;
-        }else if (vyska<550){
-            return  Color.PINK;
-        }else if (vyska<600){
-            return Color.DEEPPINK;
-        }else if (vyska<1000){
             return Color.ORANGERED;
-        }else if (vyska<1500){
+        }else if (vyska<550){
+            return  Color.INDIANRED;
+        }else if (vyska<600){
             return Color.RED;
-        }else if (vyska < 2000){
-            return Color.INDIANRED;
-        }else if (vyska<2500){
+        }else if (vyska<650){
             return Color.DARKRED;
-        }else if (vyska<3000){
-            return Color.SANDYBROWN;
-        }else if (vyska<3500){
-            return Color.ROSYBROWN;
-        }else if (vyska<4000){
+        }else if (vyska<700){
             return Color.SADDLEBROWN;
-        }else if (vyska<5000){
+        }else if (vyska < 750){
+            return Color.SANDYBROWN;
+        }else if (vyska<800){
+            return Color.ROSYBROWN;
+        }else if (vyska<850){
             return Color.BROWN;
+        }else if (vyska<900){
+            return Color.GRAY;
+        }else if (vyska<950){
+            return Color.DARKGRAY;
+        }else if (vyska<1000){
+            return Color.BLACK;
         }else {
             return Color.BLACK;
         }
-
-        /*if (vyska<10){
-            return Color.WHITE;
-        }else if (vyska<10*10){
-            return Color.LIGHTYELLOW;
-        }else if (vyska<10*10*10){
-            return Color.LIGHTGOLDENRODYELLOW;
-        }else if (vyska<10*10*10*10){
-            return Color.YELLOWGREEN;
-        }else if (vyska<10*10*10*10*10){
-            return Color.LIGHTGREEN;
-        }else{
-            return Color.BLACK;
-        }*/
-
-        /*if (vyska%1000 < 50){
-            return Color.BLACK;
-        }*/
 /*
         if (vyska<0)
         {
